@@ -32,7 +32,7 @@ const Search = props => {
       <Autocomplete
         placeholder="Search for a movie"
         onChange={handleOnChange}
-        loadOptions={debounce(loadOptions, 5000)}
+        loadOptions={debounce(loadOptions, 250)}
         cacheOptions
         formatOptionLabel={formatOptionLabel}
       />
