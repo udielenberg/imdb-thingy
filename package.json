@@ -1,0 +1,16 @@
+{
+  "name": "imdb-thingy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "client": "cd client &&  yarn && yarn build",
+    "server": "cd server && yarn && yarn server",
+    "postinstall": "concurrently \"yarn client\" \"yarn server\" "
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^5.0.2"
+  }
+}

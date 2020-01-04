@@ -1,0 +1,43 @@
+.App {}
+
+.Search {
+  margin-bottom: 20px;
+}
+
+.MovieList {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 20px;
+}
+
+.MovieItem {
+  display: flex;
+}
+
+.Movie .poster {
+  margin-right: 5%;
+}
+
+.Movie .poster img {
+  border-radius: 5px;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.MovieOption {
+  display: flex;
+
+}
+.MovieOption .poster{
+  width: 40px;
+  height: 40px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.MovieOption .info {
+  display: flex;
+  align-items: center;
+}
