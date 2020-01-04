@@ -6,11 +6,12 @@
   "scripts": {
     "client": "cd client &&  yarn && yarn build",
     "server": "cd server && yarn && yarn server",
-    "postinstall": "concurrently \"yarn client\" \"yarn server\" "
+    "start": "concurrently \"yarn client\" \"yarn server\" \"open-cli http://localhost:5000\" "
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "concurrently": "^5.0.2"
+    "concurrently": "^5.0.2",
+    "open-cli": "^5.0.0"
   }
 }
